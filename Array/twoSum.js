@@ -9,6 +9,8 @@
      所以返回[0, 1]
  */
 
+
+ 'use strict'
  /**
   * @param {number[]} nums
   * @param {number} target

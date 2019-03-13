@@ -9,6 +9,8 @@
          Could you do it in -place with O(1) extra space ?
  */
 
+
+ 'use strict'
 /**
 * @param {number[]} nums
 * @param {number} k

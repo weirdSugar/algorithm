@@ -11,6 +11,8 @@
      Output: false
  */
 
+
+ 'use strict'
  /**
   * @param {number[]} nums
   * @return {boolean}

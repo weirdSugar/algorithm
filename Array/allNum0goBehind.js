@@ -9,6 +9,8 @@
     尽量减少操作次数。
  */
 
+
+ 'use strict'
  /**
   * @param {number[]} nums
   * @return {void} Do not return anything, modify nums in-place instead.
