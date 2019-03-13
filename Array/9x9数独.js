@@ -42,6 +42,7 @@
      给定数独永远是 9 x9 形式的。
  */
 
+
 'use strict'
  /**
   * @param {character[][]} board
