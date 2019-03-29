@@ -22,3 +22,12 @@ var isPalindrome = function (head) {
     }
     return true
 };
+
+
+
+/**
+ * 另一种
+ * 找到中间点 slow走一个 fast走两下
+ * 翻转后半部分
+ * 然后head 和 mid 开始比较
+ */
