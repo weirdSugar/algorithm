@@ -19,32 +19,10 @@
 
 
 
-// other's better
-
-
-
-//  我的
 /**
- * @param {number[]} prices
- * @return {number}
+ * 
+ * 只要升了就卖
  */
-let maxProfit = function (prices) {
-    let price = 0, stock = prices[0];
-    for (let i = 0; i < prices.length; i++) {
-        if (prices[i + 1] < prices[i]) {
-            price += prices[i] - stock;
-            stock = prices[i + 1]
-            console.log(stock)
-        }
-    }
-    if (prices[prices.length - 1] > stock) {
-        price += prices[prices.length - 1] - stock
-    }
-    return price
-};
-
-
-// 别人的
 let omaxProfit = function (prices) {
     var maxtmp = 0;
     for (var i = 0; i < prices.length - 1; i++) {
