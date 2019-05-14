@@ -25,8 +25,7 @@ let rotate = function (nums, k) {
 
 // let rotate = function(nums, k) {
 //     let n=nums.length
-//     k=k%n;
-//     nums.unshift([...nums.splice(n-k)])
+//     nums.unshift(...nums.splice(n-k))
 // };
 
 // 三次reverse
